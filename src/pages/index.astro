@@ -64,3 +64,47 @@ const pageTitle = home.pageTitle;
 
   <p>{home.interests}</p>
 </Layout>
+<style is:global>
+  .quick-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin: 24px 0 40px;
+  }
+
+  .quick-links .quick-link {
+    width: 72px;
+    height: 40px;
+    box-sizing: border-box;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid #6c63ff;
+    border-radius: 6px;
+    background: transparent;
+
+    color: #111;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none !important;
+
+    transition:
+      background-color 0.2s ease,
+      color 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  .quick-links .quick-link:hover {
+    background: #6c63ff;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+
+  .quick-link__arrow {
+    display: none;
+  }
+</style>
