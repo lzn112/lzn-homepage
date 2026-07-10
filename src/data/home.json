@@ -1,0 +1,54 @@
+{
+  "pageTitle": "Zenan Lin | Personal Homepage",
+  "name": "Zenan Lin",
+  "role": "Java / Database / Full-Stack Developer",
+  "heroImage": "/images/space.webp",
+
+  "aboutTitle": "About",
+  "about": [
+    "你好，我是林泽楠（Zenan Lin），一名热爱技术的开发者。目前专注于 Java 后端开发、数据库设计与优化，以及全栈工程实践。这个站点是我学习积累的入口——把笔记、项目和个人思考整理在同一个地方。",
+    "我相信写下来的知识才是真正内化的。这里记录着我从最基础的 Java 语法到 JVM 底层原理、从 SQL 调优到数据库架构设计的每一步。如果你也在这条路上，欢迎一起交流。"
+  ],
+
+  "projectsButtonText": "My Projects",
+  "projectsButtonUrl": "/works/",
+
+  "skillsTitle": "Skills",
+  "skills": [
+    {
+      "name": "Java",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+    },
+    {
+      "name": "Spring",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+    },
+    {
+      "name": "MySQL",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+    },
+    {
+      "name": "TypeScript",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+    },
+    {
+      "name": "Git",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+    },
+    {
+      "name": "Linux",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+    }
+  ],
+
+  "interestsTitle": "Interests",
+  "interests": "除了写代码，我对系统设计和性能优化特别感兴趣——喜欢琢磨“为什么这个查询慢了”、“JVM 在这里做了什么”。偶尔也会折腾个人工具链、写写博客，探索更有趣的技术表达方式。这个站点本身就是我折腾的产物之一。"
+}
