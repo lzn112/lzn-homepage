@@ -26,13 +26,15 @@ const pageTitle = home.pageTitle;
     <p>{paragraph}</p>
   ))}
 
-  <div class="center">
-    <a href={home.projectsButtonUrl}>
-      <button class="btn">{home.projectsButtonText}</button>
+<div class="center quick-links">
+  {home.quickLinks.map((link) => (
+    <a href={link.url}>
+      <button class="btn">{link.label}</button>
     </a>
-  </div>
-
-  <h2>{home.skillsTitle}</h2>
+  ))}
+</div>
+  
+<h2>{home.skillsTitle}</h2>
 
   <div class="skills center">
     {home.skills.map((skill) => (
