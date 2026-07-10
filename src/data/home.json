@@ -7,24 +7,24 @@
   "about": [
     "田菜楠，一名迷茫博士生。目前专注于睡眠脑电研究、智能体应用。啥也不会，但啥也能够试着做一做。这个站点是我个人的一个空间——把笔记、项目和小吐槽个人埋在这里。"
   ],
-"quickLinks": [
-  {
-    "label": "项目",
-    "url": "/works/"
-  },
-  {
-    "label": "笔记",
-    "url": "/posts/"
-  },
-  {
-    "label": "随笔",
-    "url": "/posts/"
-  },
-  {
-    "label": "GitHub",
-    "url": "https://github.com/lzn112"
-  }
-],
+  "quickLinks": [
+    {
+      "label": "项目",
+      "url": "/works/"
+    },
+    {
+      "label": "笔记",
+      "url": "/posts/"
+    },
+    {
+      "label": "随笔",
+      "url": "/posts/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/lzn112"
+    }
+  ],
   "skillsTitle": "Skills",
   "skills": [
     {
@@ -61,5 +61,5 @@
     }
   ],
   "interestsTitle": "Interests",
-  "interests": "人生苦短，兴趣很多，什么都想试一试。\n</br>\n运行/电影/打游戏/户外......"
+  "interests": "人生苦短，兴趣很多，什么都想试一试。\n运行/电影/打游戏/户外......"
 }
