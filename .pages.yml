@@ -5,6 +5,89 @@ media:
   rename: safe
 
 content:
+  - name: home
+    label: 首页编辑
+    type: file
+    path: src/data/home.json
+    format: json
+
+    operations:
+      delete: false
+
+    fields:
+      - name: pageTitle
+        label: 浏览器页面标题
+        type: string
+        required: true
+
+      - name: name
+        label: 姓名
+        type: string
+        required: true
+
+      - name: role
+        label: 职业标签
+        type: string
+        required: true
+
+      - name: heroImage
+        label: 首页图片
+        type: image
+        required: true
+
+      - name: aboutTitle
+        label: About 标题
+        type: string
+        required: true
+
+      - name: about
+        label: About 段落
+        type: text
+        list: true
+        required: true
+
+      - name: projectsButtonText
+        label: 项目按钮文字
+        type: string
+        required: true
+
+      - name: projectsButtonUrl
+        label: 项目按钮链接
+        type: string
+        required: true
+
+      - name: skillsTitle
+        label: Skills 标题
+        type: string
+        required: true
+
+      - name: skills
+        label: 技能图标
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: 技能名称
+            type: string
+            required: true
+
+          - name: icon
+            label: 图标地址
+            type: string
+            required: true
+
+      - name: interestsTitle
+        label: Interests 标题
+        type: string
+        required: true
+
+      - name: interests
+        label: Interests 内容
+        type: text
+        required: true
   # 博客文章
   - name: posts
     label: 博客文章
