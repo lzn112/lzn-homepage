@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "页面"
+    delete: false
+    files:
+      - name: "home"
+        label: "首页"
+        file: "src/pages/index.astro"
+        fields:
+          - { label: "页面标题", name: "pageTitle", widget: "string", default: "Zenan Lin | Personal Homepage" }
+          - { label: "顶图", name: "heroImage", widget: "image", default: "/images/space.webp" }
+          - { label: "姓名", name: "name", widget: "string", default: "Zenan Lin" }
+          - { label: "标签行", name: "tagline", widget: "string", default: "Java / Database / Full-Stack Developer" }
+          - { label: "关于我", name: "about", widget: "markdown" }
+          - { label: "兴趣", name: "interests", widget: "markdown" }
+      - name: "about"
+        label: "关于页"
+        file: "src/pages/about.astro"
+        fields:
+          - { label: "页面标题", name: "pageTitle", widget: "string", default: "About | Zenan Lin" }
+          - { label: "内容", name: "body", widget: "markdown" }
+
+  - name: "posts"
+    label: "博客文章"
+    label_singular: "文章"
+    folder: "src/content/posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "作者", name: "author", widget: "string", default: "Zenan Lin" }
+      - { label: "日期", name: "date", widget: "datetime", format: "MM-DD-YYYY" }
+      - label: "封面图"
+        name: "image"
+        widget: "object"
+        fields:
+          - { label: "图片地址", name: "url", widget: "image", default: "/images/blog-post.webp" }
+          - { label: "描述文字", name: "alt", widget: "string" }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  - name: "projects"
+    label: "项目展示"
+    label_singular: "项目"
+    folder: "src/content/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "简介", name: "description", widget: "text" }
+      - label: "封面图"
+        name: "image"
+        widget: "object"
+        fields:
+          - { label: "图片地址", name: "url", widget: "image", default: "/images/laptop.webp" }
+          - { label: "描述文字", name: "alt", widget: "string" }
+      - label: "详情图一"
+        name: "worksImage1"
+        widget: "object"
+        fields:
+          - { label: "图片地址", name: "url", widget: "image" }
+          - { label: "描述文字", name: "alt", widget: "string" }
+      - label: "详情图二"
+        name: "worksImage2"
+        widget: "object"
+        fields:
+          - { label: "图片地址", name: "url", widget: "image" }
+          - { label: "描述文字", name: "alt", widget: "string" }
+      - { label: "平台", name: "platform", widget: "string" }
+      - { label: "技术栈", name: "stack", widget: "string" }
+      - { label: "在线地址", name: "website", widget: "string" }
+      - { label: "GitHub", name: "github", widget: "string" }
+      - { label: "正文", name: "body", widget: "markdown" }
