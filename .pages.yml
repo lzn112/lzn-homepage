@@ -46,15 +46,26 @@ content:
         list: true
         required: true
 
-      - name: projectsButtonText
-        label: 项目按钮文字
-        type: string
+      - name: quickLinks
+        label: 首页快捷入口
+        type: object
         required: true
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{label} → {url}"
 
-      - name: projectsButtonUrl
-        label: 项目按钮链接
-        type: string
-        required: true
+        fields:
+          - name: label
+            label: 按钮文字
+            type: string
+            required: true
+
+          - name: url
+            label: 按钮链接
+            type: string
+            required: true
 
       - name: skillsTitle
         label: Skills 标题
