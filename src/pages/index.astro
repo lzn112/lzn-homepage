@@ -26,13 +26,25 @@ const pageTitle = home.pageTitle;
     <p>{paragraph}</p>
   ))}
 
-<div class="center quick-links">
-  {home.quickLinks.map((link) => (
-    <a href={link.url}>
-      <button class="btn">{link.label}</button>
-    </a>
-  ))}
-</div>
+<nav class="quick-links" aria-label="首页快捷入口">
+  {home.quickLinks.map((link) => {
+    const external = link.url.startsWith("http");
+
+    return (
+      <a
+        class="quick-link"
+        href={link.url}
+        target={external ? "_blank" : undefined}
+        rel={external ? "noopener noreferrer" : undefined}
+      >
+        <span>{link.label}</span>
+        <span class="quick-link__arrow" aria-hidden="true">
+          {external ? "↗" : "→"}
+        </span>
+      </a>
+    );
+  })}
+</nav>
   
 <h2>{home.skillsTitle}</h2>
 
