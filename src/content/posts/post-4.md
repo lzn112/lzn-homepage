@@ -1,22 +1,13 @@
 ---
-title: 'Post 4'
-author: Tristen Tomczak
-date: '03-23-2025'
+title: 'first Blog — 博客起点'
+author: Zenan Lin
+date: '05-27-2025'
 image:
-    url: '/.netlify/images?url=/images/blog-post.webp'
-    alt: 'Post Thumbnail'
+    url: '/images/blog.webp'
+    alt: 'First Blog Post'
 ---
+博客起点文章，保留了最开始搭建个人站点时的状态，也像是这个仓库的时间锚点。
 
-Aenean a ex et metus finibus malesuada commodo in magna. In ut libero urna. Aenean in quam in ipsum rutrum egestas. Donec semper dignissim ante. Sed efficitur mi et sapien ultrices malesuada. Aliquam fermentum aliquam ante, eu semper mi vestibulum quis. Sed et purus metus. Pellentesque vestibulum commodo euismod. Duis a mauris accumsan lorem laoreet tempor. Mauris accumsan varius metus, in rutrum magna accumsan eget. Pellentesque at leo at sem tempor hendrerit non sit amet ante. Cras commodo augue sed magna rutrum rutrum.
+从零开始搭建一个博客，是每个开发者的必经仪式。选择什么框架、用什么主题、放在哪里托管 — 这些问题的答案本身就在塑造一个人的技术品味。
 
-<div class="center">
-  <img class="pro-img" src="/.netlify/images?url=/images/image-1.webp" alt="First Image" width="500px" height="281" loading="lazy" decoding="async">
-</div>
-
-Vivamus sed faucibus lorem. Aenean a lorem convallis, ultrices nisl vitae, imperdiet elit. Duis in tristique lacus. Quisque sollicitudin dolor ac dui faucibus, ut tincidunt velit blandit. Donec tincidunt metus eros, at dignissim enim blandit ut. Cras varius tincidunt tortor ac tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a ipsum quis nulla commodo pretium. Ut sed sem bibendum, facilisis dolor sit amet, interdum nibh. Aliquam id auctor dolor. In nulla diam, mattis quis nisl et, aliquam interdum quam. Donec lobortis ex arcu, ac pharetra ante vehicula euismod. Donec finibus faucibus felis vitae facilisis.
-
-<div class="center">
-  <img class="pro-img" src="/.netlify/images?url=/images/image-2.webp" alt="Second Image" width="500px" height="281" loading="lazy" decoding="async">
-</div>
-
-Vivamus sed faucibus lorem. Aenean a lorem convallis, ultrices nisl vitae, imperdiet elit. Duis in tristique lacus. Quisque sollicitudin dolor ac dui faucibus, ut tincidunt velit blandit. Donec tincidunt metus eros, at dignissim enim blandit ut. Cras varius tincidunt tortor ac tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a ipsum quis nulla commodo pretium. Ut sed sem bibendum, facilisis dolor sit amet, interdum nibh. Aliquam id auctor dolor. In nulla diam, mattis quis nisl et, aliquam interdum quam. Donec lobortis ex arcu, ac pharetra ante vehicula euismod. Donec finibus faucibus felis vitae facilisis.
+回顾这篇第一篇文章，当时的迷茫和兴奋都还历历在目。技术栈在变，博客主题也在变，但持续记录的初衷不变。

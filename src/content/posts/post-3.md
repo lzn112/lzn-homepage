@@ -1,22 +1,13 @@
 ---
-title: 'Post 3'
-author: Tristen Tomczak
-date: '03-23-2025'
+title: 'light — 轻量笔记入口'
+author: Zenan Lin
+date: '06-03-2025'
 image:
-    url: '/.netlify/images?url=/images/blog-post.webp'
-    alt: 'Post Thumbnail'
+    url: '/images/blog-post.webp'
+    alt: 'Light Notes'
 ---
+一篇更轻量的短笔记入口，适合承接灵感、临时记录和还在逐步整理中的内容。
 
-Aenean a ex et metus finibus malesuada commodo in magna. In ut libero urna. Aenean in quam in ipsum rutrum egestas. Donec semper dignissim ante. Sed efficitur mi et sapien ultrices malesuada. Aliquam fermentum aliquam ante, eu semper mi vestibulum quis. Sed et purus metus. Pellentesque vestibulum commodo euismod. Duis a mauris accumsan lorem laoreet tempor. Mauris accumsan varius metus, in rutrum magna accumsan eget. Pellentesque at leo at sem tempor hendrerit non sit amet ante. Cras commodo augue sed magna rutrum rutrum.
+这些笔记不追求完整性，更像是思维片段。有些会在后续被扩展为正式文章，有些则会一直保持碎片形态 — 它们有自己的价值。
 
-<div class="center">
-  <img class="pro-img" src="/.netlify/images?url=/images/image-1.webp" alt="First Image" width="500px" height="281" loading="lazy" decoding="async">
-</div>
-
-Vivamus sed faucibus lorem. Aenean a lorem convallis, ultrices nisl vitae, imperdiet elit. Duis in tristique lacus. Quisque sollicitudin dolor ac dui faucibus, ut tincidunt velit blandit. Donec tincidunt metus eros, at dignissim enim blandit ut. Cras varius tincidunt tortor ac tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a ipsum quis nulla commodo pretium. Ut sed sem bibendum, facilisis dolor sit amet, interdum nibh. Aliquam id auctor dolor. In nulla diam, mattis quis nisl et, aliquam interdum quam. Donec lobortis ex arcu, ac pharetra ante vehicula euismod. Donec finibus faucibus felis vitae facilisis.
-
-<div class="center">
-  <img class="pro-img" src="/.netlify/images?url=/images/image-2.webp" alt="Second Image" width="500px" height="281" loading="lazy" decoding="async">
-</div>
-
-Vivamus sed faucibus lorem. Aenean a lorem convallis, ultrices nisl vitae, imperdiet elit. Duis in tristique lacus. Quisque sollicitudin dolor ac dui faucibus, ut tincidunt velit blandit. Donec tincidunt metus eros, at dignissim enim blandit ut. Cras varius tincidunt tortor ac tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed a ipsum quis nulla commodo pretium. Ut sed sem bibendum, facilisis dolor sit amet, interdum nibh. Aliquam id auctor dolor. In nulla diam, mattis quis nisl et, aliquam interdum quam. Donec lobortis ex arcu, ac pharetra ante vehicula euismod. Donec finibus faucibus felis vitae facilisis.
+如果你在这里看到了不太成熟的想法，那说明这篇笔记正在履行它的职责：快速捕捉，慢慢沉淀。

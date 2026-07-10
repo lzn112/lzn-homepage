@@ -5,20 +5,20 @@ import '../styles/global.css';
 const { pageTitle } = Astro.props;
 ---
 <!DOCTYPE html>
-<html transition:animate="none" lang="en">
-	<head>
+<html lang="zh-CN">
+    <head>
         <meta charset="utf-8" />
-        <meta name="description" content="Astro description">
+        <meta name="description" content="Zenan Lin 的个人主页 — Java 开发者、数据库爱好者，记录编程学习与项目实践。">
         <meta name="viewport" content="width=device-width" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="preload" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap" as="style">
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap" rel="stylesheet">       
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Pacifico&display=swap" rel="stylesheet">
         <meta name="generator" content={Astro.generator} />
         <title>{pageTitle}</title>
-	</head>
-	<body>
+    </head>
+    <body>
         <Header />
         <main>
             <slot />
@@ -36,10 +36,9 @@ const { pageTitle } = Astro.props;
                     document.documentElement.classList.remove("light");
                 }
               }
-            
+
             colorMode();
             document.addEventListener('astro:after-swap', colorMode);
         </script>
-	</body>
+    </body>
 </html>
-

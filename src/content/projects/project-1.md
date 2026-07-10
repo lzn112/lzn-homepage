@@ -1,19 +1,20 @@
 ---
-title: 'Project 1'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: 'Personal Blog & Homepage'
+description: '基于 Astro + Milky-Way 模板构建的个人主页，整合博客、项目展示与学习笔记，暗色主题 + 响应式设计。'
 image:
-    url: '/.netlify/images?url=/images/GitHub.webp'
-    alt: 'GitHub wallpaper'
+    url: '/images/laptop.webp'
+    alt: 'Personal Homepage Preview'
 worksImage1:
-    url: '/.netlify/images?url=/images/image-1.webp'
-    alt: 'first image of your project.'
+    url: '/images/image-1.webp'
+    alt: 'Homepage screenshot'
 worksImage2:
-    url: '/.netlify/images?url=/images/image-2.webp'
-    alt: 'second image of your project.'
+    url: '/images/image-2.webp'
+    alt: 'Blog section screenshot'
 platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+stack: Astro, HTML, CSS, JavaScript
+website: https://lzn112.github.io/
+github: https://github.com/lzn112/lzn112.github.io
 ---
+从 Hexo + Massively 模板迁移到 Astro + Milky-Way，打造一个更现代、更个性化的开发者主页。
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+主要工作包括：模板选型与定制、暗色主题个性化配色、技能展示模块、博客文章迁移（Java、数据库等学习笔记）、GitHub Pages 部署配置。
