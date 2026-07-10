@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/CardPost.astro";
 
-const allPosts = await getCollection("posts");
+const allNotes = await getCollection("notes");
 const pageTitle = "Notes";
 ---
 
@@ -22,12 +22,12 @@ const pageTitle = "Notes";
 
   <ul role="list" class="link-card-grid">
     {
-      allPosts.map((cardPost) => (
+      allNotes.map((cardNote) => (
         <Card
-          url={`/posts/${cardPost.id}/`}
-          image={cardPost.data.image.url}
-          title={cardPost.data.title}
-          date={cardPost.data.date}
+          url={`/notes/${cardNote.id}/`}
+          image={cardNote.data.image.url}
+          title={cardNote.data.title}
+          date={cardNote.data.date}
         />
       ))
     }

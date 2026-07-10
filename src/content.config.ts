@@ -38,8 +38,22 @@ const postsCollection = defineCollection({
   })
 });
 
+const notesCollection = defineCollection({
+  loader: glob({ pattern: '**/[^_]*.{md,mdx}', base: "./src/content/notes" }),
+  schema: z.object({
+    title: z.string(),
+    author: z.string(),
+    date: z.string(),
+    image: z.object({
+      url: z.string(),
+      alt: z.string()
+    })
+  })
+});
+
 export const collections = {
   projects: projectsCollection,
-  posts: postsCollection
+  posts: postsCollection,
+  notes: notesCollection
 };
 
